@@ -341,7 +341,19 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     border-radius: 50%;
     background-size: cover;
-    margin-top: -100px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 
+}
+
+@media screen and (max-width: 480px) {
+	.button-container{
+		display: flex;
+		flex-direction: column;
+		justify-items: space-between;
+		margin-top: 20px;
+		
+}
+
+	
 }

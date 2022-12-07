@@ -65,6 +65,7 @@ const Portfolio = function() {
 			// typing speed
 			typeSpeed: 1,
 			contentType: 'text',
+			//callback the function and then edits the the html span "writing-text" 
 			callback: function() {
 				$("#writing-text").css({"color": "#fff", "background-color": "#C8412B"});
 			},
